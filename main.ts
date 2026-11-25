@@ -3,7 +3,7 @@ import { dirname } from "node:path";
 
 const OUT = "/output/entry.txt";
 const line =
-  "My agent remembers every wallet I have ever owned, then asks me to confirm a free mint three times - a Swiss vault run by a golden retriever clutching a permission slip.";
+  "My agent sweeps my USDT in three seconds flat, then files a risk report, two previews and a permission slip to mint for free - a getaway driver who stops to ask the bank for a hall pass.";
 
 mkdirSync(dirname(OUT), { recursive: true });
 writeFileSync(OUT, line, "utf8");
